@@ -1,0 +1,33 @@
+// Colores principales
+$color-primario: #8B5C56; // Un tono marrón cálido que evoca la madera
+$color-secundario: #F4EDE4; // Un beige claro para contrastes suaves
+$color-acento: #DAA588; // Un tono terracota para resaltar elementos clave
+
+// Colores adicionales
+$color-fondo: #FBF8F1; // Un color de fondo claro para facilitar la lectura
+$color-texto: #3E3E3E; // Casi negro para el texto principal
+$color-texto-secundario: #6E665F; // Gris oscuro para textos secundarios
+
+// Tipografías
+$fuente-primaria: 'Merriweather', serif; // Elegante, legible, con un toque clásico
+$fuente-secundaria: 'Lato', sans-serif; // Limpia y moderna para contrastar
+
+// Tamaños de fuente
+$fuente-tamano-base: 1.6rem; // Tamaño base para el texto
+$fuente-tamano-grande: 2.4rem; // Para títulos y encabezados importantes
+$fuente-tamano-mediano: 2.0rem; // Para subtítulos o encabezados secundarios
+$fuente-tamano-pequeno: 1.4rem; // Para texto auxiliar o notas al pie
+
+// Espaciado
+$espacio-base: 1rem; // Espaciado base para márgenes y paddings
+$espacio-doble: 2rem; // Doble del espacio base
+$espacio-medio: 0.5rem; // Mitad del espacio base
+
+// Bordes
+$borde-radio-base: 4px; // Radio de borde para botones, tarjetas, etc.
+
+// Sombras
+$sombra-base: 0 2px 4px rgba(0, 0, 0, 0.1); // Sombra suave para elevación
+
+// Transiciones
+$transicion-rapida: 0.3s ease-in-out; // Duración y efecto para transiciones rápidas
