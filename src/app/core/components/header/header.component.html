@@ -1,0 +1,27 @@
+<header class="header" [ngClass]="{'open':isMenuOpen}">
+    <div class="container">
+        <nav class="nav">
+            <div class="menu-toggle">
+                <i class="fas fa-bars" (click)="toggleMenu()"></i>
+                <i class="fas fa-times" (click)="toggleMenu()"></i>
+            </div>
+            <a href="#" class="logo">
+                <img src="../../../../assets/images/rose.png" alt="">
+            </a>
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a class="nav-link">Quienes somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">Nuestros trabajos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">Ideas y proyectos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
