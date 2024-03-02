@@ -1,0 +1,165 @@
+// _flex.scss
+
+/* Flex Container */
+.flex {
+  display: flex;
+
+  &-inline {
+    display: inline-flex;
+  }
+
+  &-row {
+    flex-direction: row;
+  }
+
+  &-row-reverse {
+    flex-direction: row-reverse;
+  }
+
+  &-column {
+    flex-direction: column;
+  }
+
+  &-column-reverse {
+    flex-direction: column-reverse;
+  }
+
+  &-wrap {
+    flex-wrap: wrap;
+  }
+
+  &-nowrap {
+    flex-wrap: nowrap;
+  }
+
+  &-wrap-reverse {
+    flex-wrap: wrap-reverse;
+  }
+
+  // Justify Content
+  &-justify-start {
+    justify-content: flex-start;
+  }
+
+  &-justify-end {
+    justify-content: flex-end;
+  }
+
+  &-justify-center {
+    justify-content: center;
+  }
+
+  &-justify-between {
+    justify-content: space-between;
+  }
+
+  &-justify-around {
+    justify-content: space-around;
+  }
+
+  &-justify-evenly {
+    justify-content: space-evenly;
+  }
+
+  // Align Items
+  &-align-start {
+    align-items: flex-start;
+  }
+
+  &-align-end {
+    align-items: flex-end;
+  }
+
+  &-align-center {
+    align-items: center;
+  }
+
+  &-align-baseline {
+    align-items: baseline;
+  }
+
+  &-align-stretch {
+    align-items: stretch;
+  }
+
+  // Align Content (for multi-line flex containers)
+  &-content-start {
+    align-content: flex-start;
+  }
+
+  &-content-end {
+    align-content: flex-end;
+  }
+
+  &-content-center {
+    align-content: center;
+  }
+
+  &-content-between {
+    align-content: space-between;
+  }
+
+  &-content-around {
+    align-content: space-around;
+  }
+
+  &-content-stretch {
+    align-content: stretch;
+  }
+}
+
+/* Flex Items */
+.flex-item {
+  &-grow {
+    flex-grow: 1;
+  }
+
+  &-shrink {
+    flex-shrink: 1;
+  }
+
+  &-no-grow {
+    flex-grow: 0;
+  }
+
+  &-no-shrink {
+    flex-shrink: 0;
+  }
+
+  &-basis-auto {
+    flex-basis: auto;
+  }
+
+  &-basis-0 {
+    flex-basis: 0;
+  }
+
+  // For custom flex-basis, you can use a mixin
+  @mixin flex-basis($size) {
+    flex-basis: $size;
+  }
+
+  &-align-self-auto {
+    align-self: auto;
+  }
+
+  &-align-self-start {
+    align-self: flex-start;
+  }
+
+  &-align-self-end {
+    align-self: flex-end;
+  }
+
+  &-align-self-center {
+    align-self: center;
+  }
+
+  &-align-self-baseline {
+    align-self: baseline;
+  }
+
+  &-align-self-stretch {
+    align-self: stretch;
+  }
+}
